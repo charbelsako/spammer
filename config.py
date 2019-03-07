@@ -15,7 +15,7 @@ else:
 
 CONTACT_NAME = 'Markos'
 # number of messages to send to the contact
-NUM_MSGS = 0 
+NUM_MSGS = 10
 
 # if set to True send these messages instead of random text
 USE_RANDOM_TEXT = False

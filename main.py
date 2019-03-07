@@ -36,9 +36,7 @@ contact = contacts[index]
 contact.click()
 
 # send the contact random text messages
-# to do this i will start typing to see if it works.
-# and it appears that it does work.
-# for i in range(NUM_MSGS):
-typewrite('quick brown fox')
-send = driver.find_element_by_class_name(SEND_BUTTON_CLASS)
-send.click()
+for i in range(NUM_MSGS):
+    typewrite('quick brown fox')
+    send = driver.find_element_by_class_name(SEND_BUTTON_CLASS)
+    send.click()

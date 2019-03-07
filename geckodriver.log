@@ -2108,3 +2108,25 @@ bail@chrome://marionette/content/sync.js:196:64
 1551993536712	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Error processing key: An unexpected property was found in the WebExtension manifest.
 1551993538739	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Error processing background.persistent: Event pages are not currently supported. This will run as a persistent background page.
 1551993538742	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Error processing key: An unexpected property was found in the WebExtension manifest.
+1551993803626	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.hemYTSciJkbX"
+1551993805147	addons.webextension.plasma-browser-integration@kde.org	WARN	Loading extension 'plasma-browser-integration@kde.org': Reading manifest: Error processing background.persistent: Event pages are not currently supported. This will run as a persistent background page.
+1551993805152	addons.webextension.plasma-browser-integration@kde.org	WARN	Loading extension 'plasma-browser-integration@kde.org': Reading manifest: Error processing key: An unexpected property was found in the WebExtension manifest.
+1551993806123	Marionette	INFO	Listening on port 46603
+1551993806209	Marionette	WARN	TLS certificate errors will be ignored for this session
+1551993806516	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Error processing background.persistent: Event pages are not currently supported. This will run as a persistent background page.
+1551993806531	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Error processing key: An unexpected property was found in the WebExtension manifest.
+1551993807121	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Error processing background.persistent: Event pages are not currently supported. This will run as a persistent background page.
+1551993807132	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Error processing key: An unexpected property was found in the WebExtension manifest.
+[Parent 25196, Gecko_IOThread] WARNING: pipe error (53): Connection reset by peer: file /build/firefox-DVGW0d/firefox-65.0.1+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+[Parent 25196, Gecko_IOThread] WARNING: pipe error (95): Connection reset by peer: file /build/firefox-DVGW0d/firefox-65.0.1+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+1551993842174	Marionette	INFO	Stopped listening on port 46603
+1551993846108	Marionette	INFO	Stopped listening on port 42863
+1551993851508	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.WePw937krtRw"
+1551993852983	addons.webextension.plasma-browser-integration@kde.org	WARN	Loading extension 'plasma-browser-integration@kde.org': Reading manifest: Error processing background.persistent: Event pages are not currently supported. This will run as a persistent background page.
+1551993852991	addons.webextension.plasma-browser-integration@kde.org	WARN	Loading extension 'plasma-browser-integration@kde.org': Reading manifest: Error processing key: An unexpected property was found in the WebExtension manifest.
+1551993853681	Marionette	INFO	Listening on port 40365
+1551993853733	Marionette	WARN	TLS certificate errors will be ignored for this session
+1551993854365	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Error processing background.persistent: Event pages are not currently supported. This will run as a persistent background page.
+1551993854375	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Error processing key: An unexpected property was found in the WebExtension manifest.
+1551993855356	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Error processing background.persistent: Event pages are not currently supported. This will run as a persistent background page.
+1551993855359	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Error processing key: An unexpected property was found in the WebExtension manifest.
