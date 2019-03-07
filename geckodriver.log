@@ -1,0 +1,233 @@
+1551970692870	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.a6u5avc1YDJF"
+1551970693914	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1551970693915	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1551970698412	Marionette	INFO	Listening on port 44423
+1551970698483	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:188:13
+
+[Parent 3355, Gecko_IOThread] WARNING: pipe error (76): Connection reset by peer: file /build/firefox-DVGW0d/firefox-65.0.1+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+[Parent 3355, Gecko_IOThread] WARNING: pipe error (66): Connection reset by peer: file /build/firefox-DVGW0d/firefox-65.0.1+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+1551970741192	Marionette	INFO	Stopped listening on port 44423
+1551970744285	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.3q6FRFAJMhYP"
+1551970745231	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1551970745231	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1551970749057	Marionette	INFO	Listening on port 39955
+1551970749100	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[Parent 4908, Gecko_IOThread] WARNING: pipe error (77): Connection reset by peer: file /build/firefox-DVGW0d/firefox-65.0.1+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+1551970768487	Marionette	INFO	Stopped listening on port 39955
+1551971231989	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.zwCTKnjIKJAn"
+1551971232477	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1551971232477	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1551971235565	Marionette	INFO	Listening on port 46391
+1551971235603	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 5794, Gecko_IOThread] WARNING: pipe error (76): Connection reset by peer: file /build/firefox-DVGW0d/firefox-65.0.1+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+[Parent 5794, Gecko_IOThread] WARNING: pipe error (68): Connection reset by peer: file /build/firefox-DVGW0d/firefox-65.0.1+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+1551971245809	Marionette	INFO	Stopped listening on port 46391
+1551971342609	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.IcXAMo5G3gew"
+1551971343085	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1551971343085	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1551971346506	Marionette	INFO	Listening on port 46591
+1551971346528	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[Parent 6717, Gecko_IOThread] WARNING: pipe error (76): Connection reset by peer: file /build/firefox-DVGW0d/firefox-65.0.1+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+[Parent 6717, Gecko_IOThread] WARNING: pipe error (69): Connection reset by peer: file /build/firefox-DVGW0d/firefox-65.0.1+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+1551971370561	Marionette	INFO	Stopped listening on port 46591
+1551971371891	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.xuuXMHPbvSHO"
+1551971372395	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1551971372395	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1551971375618	Marionette	INFO	Listening on port 38519
+1551971375715	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 7783, Gecko_IOThread] WARNING: pipe error (76): Connection reset by peer: file /build/firefox-DVGW0d/firefox-65.0.1+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+[Parent 7783, Gecko_IOThread] WARNING: pipe error (67): Connection reset by peer: file /build/firefox-DVGW0d/firefox-65.0.1+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+1551971382446	Marionette	INFO	Stopped listening on port 38519
+1551971409030	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "user-data-dir=/home/charbelsako/.mozilla/firefox/m2y35oha.default/" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.63GSOX3NRjVU"
+1551971409500	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1551971409500	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1551971413024	Marionette	INFO	Listening on port 39121
+1551971413080	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 8076, Gecko_IOThread] WARNING: pipe error (149): Connection reset by peer: file /build/firefox-DVGW0d/firefox-65.0.1+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+1551971421681	Marionette	INFO	Stopped listening on port 39121
+1551971553593	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "user-data-dir=/home/charbelsako/.mozilla/firefox/m2y35oha.default/" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.ZqviBuSN8dBy"
+1551971554087	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1551971554087	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1551971557136	Marionette	INFO	Listening on port 35855
+1551971557225	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 8567, Gecko_IOThread] WARNING: pipe error (76): Connection reset by peer: file /build/firefox-DVGW0d/firefox-65.0.1+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+[Parent 8567, Gecko_IOThread] WARNING: pipe error (69): Connection reset by peer: file /build/firefox-DVGW0d/firefox-65.0.1+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+1551971576332	Marionette	INFO	Stopped listening on port 35855
+1551971576837	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "user-data-dir=/home/charbelsako/.mozilla/firefox/" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.8kwlv8tSMAXu"
+1551971577301	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1551971577301	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1551971580278	Marionette	INFO	Listening on port 42235
+1551971580419	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 8866, Gecko_IOThread] WARNING: pipe error (145): Connection reset by peer: file /build/firefox-DVGW0d/firefox-65.0.1+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+1551971593442	Marionette	INFO	Stopped listening on port 42235
+1551972246339	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.a3O7SEl7DuFN"
+1551972247665	addons.webextension.plasma-browser-integration@kde.org	WARN	Loading extension 'plasma-browser-integration@kde.org': Reading manifest: Error processing background.persistent: Event pages are not currently supported. This will run as a persistent background page.
+1551972247674	addons.webextension.plasma-browser-integration@kde.org	WARN	Loading extension 'plasma-browser-integration@kde.org': Reading manifest: Error processing key: An unexpected property was found in the WebExtension manifest.
+1551972248417	Marionette	INFO	Listening on port 40687
+1551972248484	Marionette	WARN	TLS certificate errors will be ignored for this session
+1551972248907	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Error processing background.persistent: Event pages are not currently supported. This will run as a persistent background page.
+1551972248916	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Error processing key: An unexpected property was found in the WebExtension manifest.
+1551972250525	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Error processing background.persistent: Event pages are not currently supported. This will run as a persistent background page.
+1551972250529	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Error processing key: An unexpected property was found in the WebExtension manifest.
+[Parent 9535, Gecko_IOThread] WARNING: pipe error (127): Connection reset by peer: file /build/firefox-DVGW0d/firefox-65.0.1+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+1551972257429	Marionette	INFO	Stopped listening on port 40687
+1551973957411	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.VC3tIUQFMkp3"
+1551973958700	addons.webextension.plasma-browser-integration@kde.org	WARN	Loading extension 'plasma-browser-integration@kde.org': Reading manifest: Error processing background.persistent: Event pages are not currently supported. This will run as a persistent background page.
+1551973958708	addons.webextension.plasma-browser-integration@kde.org	WARN	Loading extension 'plasma-browser-integration@kde.org': Reading manifest: Error processing key: An unexpected property was found in the WebExtension manifest.
+1551973959554	Marionette	INFO	Listening on port 37589
+1551973959636	Marionette	WARN	TLS certificate errors will be ignored for this session
+1551973959854	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Error processing background.persistent: Event pages are not currently supported. This will run as a persistent background page.
+1551973959860	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Error processing key: An unexpected property was found in the WebExtension manifest.
+1551973960376	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Error processing background.persistent: Event pages are not currently supported. This will run as a persistent background page.
+1551973960379	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Error processing key: An unexpected property was found in the WebExtension manifest.
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[Parent 10497, Gecko_IOThread] WARNING: pipe error (153): Connection reset by peer: file /build/firefox-DVGW0d/firefox-65.0.1+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+1551973978313	Marionette	INFO	Stopped listening on port 37589
+1551974153516	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.j1zgYtE9Drer"
+1551974154824	addons.webextension.plasma-browser-integration@kde.org	WARN	Loading extension 'plasma-browser-integration@kde.org': Reading manifest: Error processing background.persistent: Event pages are not currently supported. This will run as a persistent background page.
+1551974154831	addons.webextension.plasma-browser-integration@kde.org	WARN	Loading extension 'plasma-browser-integration@kde.org': Reading manifest: Error processing key: An unexpected property was found in the WebExtension manifest.
+1551974155649	Marionette	INFO	Listening on port 39711
+1551974155736	Marionette	WARN	TLS certificate errors will be ignored for this session
+1551974155993	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Error processing background.persistent: Event pages are not currently supported. This will run as a persistent background page.
+1551974156000	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Error processing key: An unexpected property was found in the WebExtension manifest.
+1551974156579	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Error processing background.persistent: Event pages are not currently supported. This will run as a persistent background page.
+1551974156583	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Error processing key: An unexpected property was found in the WebExtension manifest.
+1551974175001	Marionette	INFO	Stopped listening on port 39711
+1551974318515	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.YVufx2vh8JW7"
+1551974319822	addons.webextension.plasma-browser-integration@kde.org	WARN	Loading extension 'plasma-browser-integration@kde.org': Reading manifest: Error processing background.persistent: Event pages are not currently supported. This will run as a persistent background page.
+1551974319827	addons.webextension.plasma-browser-integration@kde.org	WARN	Loading extension 'plasma-browser-integration@kde.org': Reading manifest: Error processing key: An unexpected property was found in the WebExtension manifest.
+1551974320571	Marionette	INFO	Listening on port 46393
+1551974320654	Marionette	WARN	TLS certificate errors will be ignored for this session
+1551974320993	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Error processing background.persistent: Event pages are not currently supported. This will run as a persistent background page.
+1551974321001	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Error processing key: An unexpected property was found in the WebExtension manifest.
+1551974321934	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Error processing background.persistent: Event pages are not currently supported. This will run as a persistent background page.
+1551974321937	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Error processing key: An unexpected property was found in the WebExtension manifest.
+[Parent 11312, Gecko_IOThread] WARNING: pipe error (129): Connection reset by peer: file /build/firefox-DVGW0d/firefox-65.0.1+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+[Parent 11312, Gecko_IOThread] WARNING: pipe error (44): Connection reset by peer: file /build/firefox-DVGW0d/firefox-65.0.1+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+1551974331021	Marionette	INFO	Stopped listening on port 46393
+1551974444257	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.7qcWcNp6Z5Db"
+1551974445496	addons.webextension.plasma-browser-integration@kde.org	WARN	Loading extension 'plasma-browser-integration@kde.org': Reading manifest: Error processing background.persistent: Event pages are not currently supported. This will run as a persistent background page.
+1551974445501	addons.webextension.plasma-browser-integration@kde.org	WARN	Loading extension 'plasma-browser-integration@kde.org': Reading manifest: Error processing key: An unexpected property was found in the WebExtension manifest.
+1551974446277	Marionette	INFO	Listening on port 42787
+1551974446374	Marionette	WARN	TLS certificate errors will be ignored for this session
+1551974446681	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Error processing background.persistent: Event pages are not currently supported. This will run as a persistent background page.
+1551974446688	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Error processing key: An unexpected property was found in the WebExtension manifest.
+1551974447197	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Error processing background.persistent: Event pages are not currently supported. This will run as a persistent background page.
+1551974447201	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Error processing key: An unexpected property was found in the WebExtension manifest.
+[Parent 11698, Gecko_IOThread] WARNING: pipe error (44): Connection reset by peer: file /build/firefox-DVGW0d/firefox-65.0.1+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+[Parent 11698, Gecko_IOThread] WARNING: pipe error (92): Connection reset by peer: file /build/firefox-DVGW0d/firefox-65.0.1+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+1551974474760	Marionette	INFO	Stopped listening on port 42787
+1551974533974	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.9P2SyURdZSMl"
+1551974535592	addons.webextension.plasma-browser-integration@kde.org	WARN	Loading extension 'plasma-browser-integration@kde.org': Reading manifest: Error processing background.persistent: Event pages are not currently supported. This will run as a persistent background page.
+1551974535598	addons.webextension.plasma-browser-integration@kde.org	WARN	Loading extension 'plasma-browser-integration@kde.org': Reading manifest: Error processing key: An unexpected property was found in the WebExtension manifest.
+1551974536431	Marionette	INFO	Listening on port 36323
+1551974536506	Marionette	WARN	TLS certificate errors will be ignored for this session
+1551974536778	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Error processing background.persistent: Event pages are not currently supported. This will run as a persistent background page.
+1551974536784	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Error processing key: An unexpected property was found in the WebExtension manifest.
+console.error: 
+  Error: Attempt to postMessage on disconnected port: 
+console.error: 
+  Error: Attempt to postMessage on disconnected port: 
+console.error: 
+  Error: Attempt to postMessage on disconnected port: 
+console.error: 
+  Error: Attempt to postMessage on disconnected port: 
+console.error: 
+  Error: Attempt to postMessage on disconnected port: 
+console.error: 
+  Error: Attempt to postMessage on disconnected port: 
+1551974537179	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Error processing background.persistent: Event pages are not currently supported. This will run as a persistent background page.
+1551974537184	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Error processing key: An unexpected property was found in the WebExtension manifest.
+[Parent 12100, Gecko_IOThread] WARNING: pipe error (44): Connection reset by peer: file /build/firefox-DVGW0d/firefox-65.0.1+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+[Parent 12100, Gecko_IOThread] WARNING: pipe error (96): Connection reset by peer: file /build/firefox-DVGW0d/firefox-65.0.1+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+1551974551582	Marionette	INFO	Stopped listening on port 36323
+1551974557499	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.W6vlkDJrFY6b"
+1551974558808	addons.webextension.plasma-browser-integration@kde.org	WARN	Loading extension 'plasma-browser-integration@kde.org': Reading manifest: Error processing background.persistent: Event pages are not currently supported. This will run as a persistent background page.
+1551974558814	addons.webextension.plasma-browser-integration@kde.org	WARN	Loading extension 'plasma-browser-integration@kde.org': Reading manifest: Error processing key: An unexpected property was found in the WebExtension manifest.
+1551974559434	Marionette	INFO	Listening on port 39619
+1551974559539	Marionette	WARN	TLS certificate errors will be ignored for this session
+1551974559672	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Error processing background.persistent: Event pages are not currently supported. This will run as a persistent background page.
+1551974559684	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Error processing key: An unexpected property was found in the WebExtension manifest.
+JavaScript error: resource://gre/modules/ExtensionCommon.jsm, line 1750: TypeError: data is null
+1551974560153	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Error processing background.persistent: Event pages are not currently supported. This will run as a persistent background page.
+1551974560155	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Error processing key: An unexpected property was found in the WebExtension manifest.
+[Parent 12469, Gecko_IOThread] WARNING: pipe error (91): Connection reset by peer: file /build/firefox-DVGW0d/firefox-65.0.1+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+[Parent 12469, Gecko_IOThread] WARNING: pipe error (44): Connection reset by peer: file /build/firefox-DVGW0d/firefox-65.0.1+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+1551974766560	Marionette	INFO	Stopped listening on port 39619
+1551974812172	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.Dq6sh6iWZJpu"
+1551974813828	addons.webextension.plasma-browser-integration@kde.org	WARN	Loading extension 'plasma-browser-integration@kde.org': Reading manifest: Error processing background.persistent: Event pages are not currently supported. This will run as a persistent background page.
+1551974813835	addons.webextension.plasma-browser-integration@kde.org	WARN	Loading extension 'plasma-browser-integration@kde.org': Reading manifest: Error processing key: An unexpected property was found in the WebExtension manifest.
+1551974814466	Marionette	INFO	Listening on port 36403
+1551974814600	Marionette	WARN	TLS certificate errors will be ignored for this session
+1551974814978	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Error processing background.persistent: Event pages are not currently supported. This will run as a persistent background page.
+1551974814983	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Error processing key: An unexpected property was found in the WebExtension manifest.
+1551974815562	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Error processing background.persistent: Event pages are not currently supported. This will run as a persistent background page.
+1551974815568	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Error processing key: An unexpected property was found in the WebExtension manifest.
+1551974864972	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.CYxfwbgkW1e0"
+1551974866234	addons.webextension.plasma-browser-integration@kde.org	WARN	Loading extension 'plasma-browser-integration@kde.org': Reading manifest: Error processing background.persistent: Event pages are not currently supported. This will run as a persistent background page.
+1551974866239	addons.webextension.plasma-browser-integration@kde.org	WARN	Loading extension 'plasma-browser-integration@kde.org': Reading manifest: Error processing key: An unexpected property was found in the WebExtension manifest.
+1551974867047	Marionette	INFO	Listening on port 43227
+1551974867091	Marionette	WARN	TLS certificate errors will be ignored for this session
+1551974867507	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Error processing background.persistent: Event pages are not currently supported. This will run as a persistent background page.
+1551974867511	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Error processing key: An unexpected property was found in the WebExtension manifest.
+1551974867851	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Error processing background.persistent: Event pages are not currently supported. This will run as a persistent background page.
+1551974867854	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Error processing key: An unexpected property was found in the WebExtension manifest.
+console.error: 
+  Error: Attempt to postMessage on disconnected port: 
+console.error: 
+  Error: Attempt to postMessage on disconnected port: 
+console.error: 
+  Error: Attempt to postMessage on disconnected port: 
+console.error: 
+  Error: Attempt to postMessage on disconnected port: 
+console.error: 
+  Error: Attempt to postMessage on disconnected port: 
+console.error: 
+  Error: Attempt to postMessage on disconnected port: 
+[Parent 12916, Gecko_IOThread] WARNING: pipe error (94): Connection reset by peer: file /build/firefox-DVGW0d/firefox-65.0.1+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+[Parent 12916, Gecko_IOThread] WARNING: pipe error (44): Connection reset by peer: file /build/firefox-DVGW0d/firefox-65.0.1+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1551974872793	Marionette	INFO	Stopped listening on port 36403
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1551974941196	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.17T6PgL6afG5"
+1551974942700	addons.webextension.plasma-browser-integration@kde.org	WARN	Loading extension 'plasma-browser-integration@kde.org': Reading manifest: Error processing background.persistent: Event pages are not currently supported. This will run as a persistent background page.
+1551974942710	addons.webextension.plasma-browser-integration@kde.org	WARN	Loading extension 'plasma-browser-integration@kde.org': Reading manifest: Error processing key: An unexpected property was found in the WebExtension manifest.
+1551974943331	Marionette	INFO	Listening on port 40025
+1551974943453	Marionette	WARN	TLS certificate errors will be ignored for this session
+1551974943877	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Error processing background.persistent: Event pages are not currently supported. This will run as a persistent background page.
+1551974943885	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Error processing key: An unexpected property was found in the WebExtension manifest.
+1551974944571	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Error processing background.persistent: Event pages are not currently supported. This will run as a persistent background page.
+1551974944575	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Error processing key: An unexpected property was found in the WebExtension manifest.
+1551974988412	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.0vJFkiuFaRdR"
+1551974990100	addons.webextension.plasma-browser-integration@kde.org	WARN	Loading extension 'plasma-browser-integration@kde.org': Reading manifest: Error processing background.persistent: Event pages are not currently supported. This will run as a persistent background page.
+1551974990107	addons.webextension.plasma-browser-integration@kde.org	WARN	Loading extension 'plasma-browser-integration@kde.org': Reading manifest: Error processing key: An unexpected property was found in the WebExtension manifest.
+1551974990942	Marionette	INFO	Listening on port 41931
+1551974991044	Marionette	WARN	TLS certificate errors will be ignored for this session
+1551974991356	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Error processing background.persistent: Event pages are not currently supported. This will run as a persistent background page.
+1551974991365	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Error processing key: An unexpected property was found in the WebExtension manifest.
+1551974993000	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Error processing background.persistent: Event pages are not currently supported. This will run as a persistent background page.
+1551974993005	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Error processing key: An unexpected property was found in the WebExtension manifest.
+[Parent 14391, Gecko_IOThread] WARNING: pipe error (95): Connection reset by peer: file /build/firefox-DVGW0d/firefox-65.0.1+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+[Parent 14391, Gecko_IOThread] WARNING: pipe error (145): Connection reset by peer: file /build/firefox-DVGW0d/firefox-65.0.1+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+[Parent 14391, Gecko_IOThread] WARNING: pipe error (44): Connection reset by peer: file /build/firefox-DVGW0d/firefox-65.0.1+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+1551975002547	Marionette	INFO	Stopped listening on port 41931
+[Child 14068, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-DVGW0d/firefox-65.0.1+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+[Parent 13999, Gecko_IOThread] WARNING: pipe error (44): Connection reset by peer: file /build/firefox-DVGW0d/firefox-65.0.1+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+1551975006498	Marionette	INFO	Stopped listening on port 40025
