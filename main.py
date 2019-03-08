@@ -31,6 +31,14 @@ names = []
 for i in range(len(spans)):
     names.append(spans[i][1].get_attribute("title"))
 
+def remove_space(x):
+    return x.replace(" ", "")
+
+names = list(map(remove_space, names))
+# names = [n.split() for n in names if len(n) > 0]
+# print(names)
+# names = [''.join([n[0], n[1]]) for n in names if len(n) > 1]
+print(names)
 index = names.index(CONTACT_NAME)
 contact = contacts[index]
 contact.click()
