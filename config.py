@@ -1,8 +1,8 @@
 # change these variables where needed
-CONTACT_NAME = 'Simon Daccache'
+CONTACT_NAME = 'Maroun Saliba'
 CONTACT_NAME = CONTACT_NAME.replace(" ", "")
 # number of messages to send to the contact
-NUM_MSGS = 10
+NUM_MSGS = 100
 # if set to False, send these messages instead of random text
 # not implemented yet
 # TODO: refactor

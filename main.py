@@ -29,7 +29,11 @@ spans = [c.find_elements_by_xpath('.//span') for c in contacts]
 
 names = []
 for i in range(len(spans)):
-    names.append(spans[i][1].get_attribute("title"))
+    if len(spans[i]) > 1:
+        names.append(spans[i][1].get_attribute("title"))
+    else:
+        names.append(spans[i][0].get_attribute("title"))
+
 
 def remove_space(x):
     return x.replace(" ", "")
