@@ -1,12 +1,12 @@
 # change these variables where needed
-CONTACT_NAME = 'Maroun Saliba'
+CONTACT_NAME = 'Simon Daccache'
 CONTACT_NAME = CONTACT_NAME.replace(" ", "")
 # number of messages to send to the contact
-NUM_MSGS = 100
+NUM_MSGS = 3
 # if set to False, send these messages instead of random text
 # not implemented yet
 # TODO: refactor
-USE_RANDOM_TEXT = True
+USE_RANDOM_TEXT = False
 MESSAGES = ['USER', 'DEFINED', 'MESSAGES']
 # the browser that you use
 BROWSER_NAME = 'Firefox'
