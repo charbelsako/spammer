@@ -4,7 +4,7 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
-from pyautogui import typewrite, hotkey
+from pyautogui import typewrite
 from time import sleep
 
 # config variables and/or constants
@@ -20,11 +20,7 @@ try:
 except:
     print('oops')
 
-# wait for 5 seconds for all contacts to load. Perhaps this will solve the bug
-sleep(5)
-# WIP: Refactor this code. use find_elements. and choose the one you want.
-# navigate to the contact
-# all the contacts
+# navigate to the contact and click on the div
 contacts = driver.find_elements_by_class_name(CONTACT_CLASS_NAME)
 print("You have {} contacts.\n".format(len(contacts)))
 spans = [c.find_elements_by_xpath('.//span') for c in contacts]
@@ -35,6 +31,7 @@ for i in range(len(spans)):
         names.append(spans[i][1].get_attribute("title"))
     else:
         names.append(spans[i][0].get_attribute("title"))
+# debugging
 print("With {} names.\n".format(len(names)))
 
 def remove_space(x):
@@ -46,11 +43,15 @@ index = names.index(CONTACT_NAME)
 contact = contacts[index]
 contact.click()
 
-# send the contact random text messages
+# send the contact random text messages or predefined text
 for i in range(NUM_MSGS):
     if not USE_RANDOM_TEXT:
-        typewrite(MESSAGES[i%len(MESSAGES)])
+        if SEND_WHOLE_MESSAGE:
+            typewrite(MESSAGES)
+        else:
+            typewrite(MESSAGES[i%len(MESSAGES)])
     else:
         typewrite('quick brown fox')
+    sleep(1)
     send = driver.find_element_by_class_name(SEND_BUTTON_CLASS)
     send.click()
