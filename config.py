@@ -1,7 +1,6 @@
 # change these variables where needed
 CONTACT_NAME = 'Simon Daccache'
-# number of messages to send to the contact
-NUM_MSGS = 3
+NUM_MSGS = 3000000000
 # if set to False, send these messages instead of random text
 USE_RANDOM_TEXT = False
 SEND_WHOLE_MESSAGE = False
@@ -15,13 +14,6 @@ CHROME_DATA_DIR = ''
 FIREFOX_PROFILE = '/home/charbelsako/.mozilla/firefox/'
 # change to your profile name
 PROFILE_NAME = 'm2y35oha.default'
-
-
-
-
-
-
-
 
 
 
