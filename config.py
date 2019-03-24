@@ -23,7 +23,6 @@ PROFILE_NAME = 'm2y35oha.default'
 
 
 
-
 if BROWSER_NAME == 'Chrome'.lower():
     PROFILE = CHROME_DATA_DIR
 else:
